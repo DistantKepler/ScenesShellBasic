@@ -14,6 +14,7 @@ class InteractionLayer : Layer, KeyDownHandler {
     var isPaused = true 
 
     // let background = Background()
+    // do we need the above line?
     
     init() {
         // Using a meaningful name can be helpful for debugging
