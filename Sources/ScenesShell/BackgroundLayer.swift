@@ -7,13 +7,18 @@ import Scenes
 
 
 class BackgroundLayer : Layer {
-      let background = Background()
-
+    let background = Background()
+      
+      
       init() {
           // Using a meaningful name can be helpful for debugging
           super.init(name:"Background")
 
           // We insert our RenderableEntities in the constructor
+      //    background.changeVelocity(velocityX:3, velocityY:0)
           insert(entity:background, at:.back)
+
+
+
       }
   }
