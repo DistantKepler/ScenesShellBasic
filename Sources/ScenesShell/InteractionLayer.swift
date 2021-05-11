@@ -15,6 +15,7 @@ class InteractionLayer : Layer, KeyDownHandler {
 
     // let background = Background()
     // do we need the above line?
+    // test
     
     init() {
         // Using a meaningful name can be helpful for debugging
